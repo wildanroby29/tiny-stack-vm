@@ -1,4 +1,5 @@
 // tiny stack VM — exact ISA implementation (practice 1,000,000)
+// ISA.md + generator/subject/vm.mjs are the ground truth for every trap and limit.
 import { mkdirSync, readdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 
