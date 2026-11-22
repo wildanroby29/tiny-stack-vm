@@ -1,3 +1,4 @@
+// tiny stack VM — exact ISA implementation (practice 1,000,000)
 import { mkdirSync, readdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 
